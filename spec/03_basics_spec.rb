@@ -2,6 +2,7 @@ require_relative '../lib/03_basics'
 
 describe 'who is the biggest number' do
   # Hint: 'def who_is_bigger(a, b, c)'
+  describe
   it 'tells me the biggest' do
     expect(who_is_bigger(84, 42, nil)).to eq("nil detected")
     expect(who_is_bigger(nil, 42, 21)).to eq("nil detected")
@@ -24,7 +25,7 @@ describe 'crazy stuff on strings' do
   end
 end
 
-
+=begin
 describe '42 finder' do
   # array_42 takes an array as parameter and returns:
   # - true if there's a 42 in the array items
@@ -57,3 +58,6 @@ describe 'crazy stuff on arrays' do
       .to eq([2, 4, 14, 16, 64])
   end
 end
+
+
+=end
